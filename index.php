@@ -110,11 +110,12 @@ echo $str;
 echo" <hr>";
 echo "<h2>Q6</h2>"."<br>";
 function concatenateName($first , $last){
-echo $first ." ".$last ."<br>"; return;
+    $full=$first ." ".$last ."<br>";
+return $full;
 }
-concatenateName("mohamed" , "karam");
-concatenateName("Mohamed" , "Amr");
-concatenateName("Fady" , "Soliman");
+echo concatenateName("mohamed" , "karam");
+echo concatenateName("Mohamed" , "Amr");
+echo concatenateName("Fady" , "Soliman");
 
 
 ?>
