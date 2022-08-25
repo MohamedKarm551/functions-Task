@@ -51,6 +51,7 @@ isgreater(`123456` , 10);"."<br>";
 isgreater("123456" , 6);
 isgreater("123456" , 5);
 isgreater("123456" , 10);
+echo" </pre>";
 // ========================================================================
 echo" <hr>";
 echo "<h2>Q3</h2>"."<br>";
@@ -74,6 +75,8 @@ evenOrOdd(10);
 evenOrOdd(1);
 evenOrOdd(110);
 evenOrOdd(15);
+echo" </pre>";
+
 // ========================================================================
 echo" <hr>";
 echo "<h2>Q4</h2>"."<br>";
@@ -87,9 +90,13 @@ for ($i=0; $i < count($arr) ; $i++) {
 echo "not here"."<br>"; return;
 }
 $arr=[1,2,3 , "14"];
+echo" <pre>";
+
 dataIsValid($arr , 14);
 dataIsValid($arr , "14");
 dataIsValid($arr , 1);
+echo" </pre>";
+
 
 // ========================================================================
 echo" <hr>";
